@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway',sans-serif;
+    background-color: #ffff;
+
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+input,button,textarea{
+    border:none;
+    outline: none;
+}
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li a{
+    height: 40px;
+    line-height: 43px;
+    margin: 3px;
+    padding: 0 22px;
+    display: flex;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition-timing-function: 0.6s ease-in-out;
+    color: #1486c9;
+}
+nav ul li a:hover{
+    background-color: #fc6f39;
+    color: #fff;
+    box-shadow: 5px 10px 30px rgba(red, green, blue, alpha)
+}
+.active{
+    background-color: #fc6f39;
+    color: rgb(15, 14, 14);
+    box-shadow: 5px 10px 30px rgba(red, green, blue, alpha)
+}
+.main{
+    width: 100%;
+    height: 800px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:url(../Images/logo.png);
+}
+.main-heading{
+    width: 500px;
+    position: absolute;
+    left:16%;
+    top:47;
+    transform:translate(-16%,-47%)
+}
+.main-heading{
+    font-size: 36px;
+    margin: 0px;
+    letter-spacing: 3px;
+    color: #141414cc;
+
+}
+.main-heading p{
+    color: rgb(8, 10, 9);
+
+}
+.main-btn{
+    margin-top: 27%;
+    width: 126px;
+    height:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(212, 134, 16);
+    border-radius: 10.6px;
+    color: rgb(209, 178, 178);
+    transition: 0.6s ease-in-out;
+
+}
+
+.main-btn:hover{
+    box-shadow: 5px 10px 30px rgba(red, green, blue, alpha);
+}
+.features{
+    width: 100%;
+    display: flex;
+    height: 72vh;
+    box-sizing: border-box;
+    
+    flex-direction:row;
+    margin-top: 99px;
+}
+.contact{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px;
+}
+.contact-heading{
+    text-align: center;
+    margin: 40px 0px;
+    margin-bottom: 80px;
+
+}
+
+.contact-heading h1{
+    font-size: 2.2rem;
+}
+
+.contact form{
+    width:600px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact form input, .contact form textarea{
+    width: 100%;
+    height: 40px;
+    margin: 5px 0px;
+    padding: 10px;
+    background-color: #e2e2e2;
+    color: #1e1e1e;
+    border-radius: 5px;
+
+}
+.contact form textarea{
+    height: 153px;
+}
+.contact.btn{
+    margin-top: 40px;
+}
